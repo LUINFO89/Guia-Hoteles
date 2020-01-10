@@ -4,6 +4,7 @@
   "description": "Nuestro Primer proyecto de node js",
   "main": "inde.html\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[Cx\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C.\u001b[C\u001b[Chtml",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,5 +13,8 @@
   },
   "author": "Luis Soto",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/Luiguie/guia-hoteles#readme"
+  "homepage": "https://bitbucket.org/Luiguie/guia-hoteles#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
