@@ -16,5 +16,10 @@
   "homepage": "https://bitbucket.org/Luiguie/guia-hoteles#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
   }
 }
