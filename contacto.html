@@ -22,10 +22,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item "><a class="nav-link" href="./index-html">Home</a></li>
-          <li class="nav-item active"><a class="nav-link" href="./about.html">Nosotros</a></li>
+          <li class="nav-item "><a class="nav-link" href="./about.html">Nosotros</a></li>
           <li class="nav-item "><a class="nav-link" href="./precios.html">Precios</a></li>
           <li class="nav-item "><a class="nav-link" href="./terminos.html">Terminos y Condiciones</a></li>
-          <li class="nav-item "><a class="nav-link" href="./contacto.html">Contacto</a></li>  
+          <li class="nav-item active"><a class="nav-link" href="./contacto.html">Contacto</a></li>  
         </ul>
       </div>
 
@@ -44,23 +44,51 @@
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item " ><a href="./index.html">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Nosotros</li>
+        <li class="breadcrumb-item active" aria-current="page">Contacto</li>
       </ol>     
     </nav>
-             <samp>Lorem Ipsum
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu fermentum arcu. Proin imperdiet tortor at accumsan eleifend. Suspendisse sodales vel eros non hendrerit. Nullam ut consectetur sapien, ut fermentum justo. Integer sagittis sapien ut elit congue auctor. Donec nec ullamcorper eros. Vestibulum eleifend ante eu euismod interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi cursus ligula congue, ornare libero efficitur, tincidunt erat.
-
-Integer ultrices mauris in risus gravida efficitur. Sed sit amet neque aliquet, mattis nibh id, accumsan turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis pellentesque ut ex eu tempus. Sed ligula felis, varius nec faucibus ac, laoreet id lectus. Cras maximus, ante non tempor commodo, sem nisi imperdiet dui, non rhoncus magna tortor quis lorem. Fusce mattis fringilla arcu. In odio arcu, dignissim ut sapien et, dictum commodo ipsum. Aliquam suscipit odio a massa auctor condimentum. Sed malesuada quis purus in tempus. Quisque dignissim dui sem, eu finibus enim suscipit et. Cras ac elit dolor. Pellentesque non enim et diam dictum ultrices scelerisque ut sem.
-
-Suspendisse potenti. Aenean mauris magna, pharetra non eleifend a, congue porttitor ex. In neque ante, convallis sed placerat non, porttitor in ipsum. Sed ut risus sed turpis rhoncus blandit. Nullam tincidunt imperdiet dictum. Nullam leo mi, viverra id turpis eget, accumsan volutpat dolor. Cras consectetur pellentesque lacus ut gravida. Integer quis faucibus massa.
-
-Suspendisse pellentesque rutrum tortor interdum consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce congue diam congue risus consectetur elementum. In eleifend sapien sit amet vestibulum ornare. Mauris venenatis egestas neque eu placerat. Duis venenatis ut odio ornare sagittis. Nullam sed dolor mollis nisl cursus tempus.
-
-Sed sed metus velit. Pellentesque a suscipit augue. In ornare egestas est, cursus commodo turpis porttitor non. Donec sit amet purus quam. Praesent imperdiet ex ac mattis pretium. Fusce pulvinar nec felis nec rhoncus. Maecenas tristique elementum metus, consequat finibus elit dapibus et. Aenean a facilisis dolor. Proin egestas sodales viverra. Quisque rutrum dolor tortor, eget rutrum urna laoreet vel. Fusce placerat diam massa, quis semper dolor blandit sit amet. Sed id nisi ac nunc ornare imperdiet ut sit amet tellus. Donec dui purus, bibendum sed ligula sit amet, mattis efficitur neque. Vestibulum vestibulum dictum ullamcorper. Vestibulum a laoreet nulla, non pulvinar sem.</samp>
+             <h1>Dejame un comentario</h1>
+             <form>
+             	<div class="form-row">
+             		<div class="form-group col-sm-6">
+             			<label for="Nombre">Nombre</label>
+             			<input type="text" class="form-control" id="Nombre" placeholder="Ingrese su Nombre">
+             		</div>
+             		
+             		<div class="form-group col-sm-6">
+             			<label for="Apellido">Apellido</label>
+             			<input type="text" class="form-control" id="Apellido" placeholder="Ingrese su Apellido">
+             		</div>
+             		
+             	</div>
+             	<div class="form-group">
+             			<label for="Email">Email</label>
+             			<input type="text" class="form-control" id="Email" placeholder="Ingrese su Email">
+             		</div>
+             	<div class="form-row">
+             		<div class="form-group col-sm-6">
+             			<label for="Direccion">DIrección</label>
+             			<input type="text" class="form-control" id="Direccion" placeholder="Ingrese su DIrección">
+             		</div>
+             		
+             		<div class="form-group col-sm-3" >
+             			<label for="Pais">Pais</label>
+             			<select id="Pais" class="form-control">
+             				<option>Colombia</option>
+             				<option>Argenina</option>
+             				<option>Bolivia</option>	
+             			</select>
+             		</div>
+             	</div>	
+             	<div class="form-group">
+             		<label for="comentario">Comentario</label>
+             		<textarea id="Comentario" class="form-control" rows="10"></textarea>
+             		
+             	</div>
+             	
+             	
+             	<button type="submit" class="btn btn-primary"> Enviar </button>
+             </form>
       
  
 
