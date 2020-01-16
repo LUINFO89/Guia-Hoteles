@@ -1,6 +1,7 @@
 .jumbotron{
-    background-color: yellow;
+    background-color:yellow;
     color: black;
+    margin-top: 30px;
 
 }
 footer{
@@ -18,6 +19,11 @@ footer{
 .btn-reserva{
     width: 100%;
     
+}
+.footer-addres-icon
+{
+    padding-right: 10px; 
+
 }
 
 

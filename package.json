@@ -1,5 +1,5 @@
 {
-  "name": "guia-hoteles",
+  "name": "index.html",
   "version": "1.0.0",
   "description": "Nuestro Primer proyecto de node js",
   "main": "inde.html\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[Cx\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C.\u001b[C\u001b[Chtml",
@@ -19,7 +19,10 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "bootstrap-icons": "^1.0.0-alpha2",
     "jquery": "^3.4.1",
+    "open-iconic": "^1.1.1",
+    "popper": "^1.0.1",
     "popper.js": "^1.16.0"
   }
 }
