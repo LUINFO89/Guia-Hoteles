@@ -36,7 +36,7 @@
 <div class="jumbotron ">
   
     <h1>Guia Hoteles</h1>
-    <p class="lead">Aqui encontraras una guia comercial de los mejores hoteles de sudamerica.</p>
+    <!--p class="lead">Aqui encontraras una guia comercial de los mejores hoteles de sudamerica.</p-->
   
 </div>
 
@@ -47,32 +47,54 @@
         </ol>
         
       </nav>
-              <div class="row">
-                <div class="col-sm-4">
+            <!--Implementando Collapse-->
+      <div class="row ">
+        <div class="card col-sm-3 ">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#funciona" aria-expanded="false" aria-controls="multi-collapse">¿Cómo funciona?</button>
+        </div>
+        <div class=" card col-sm-3">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#reserva" aria-expanded="false" aria-controls="multi-collapse">¿Dónde puedo reservar?</button>
+        </div>
+        <div class="card col-sm-3">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pago" aria-expanded="false" aria-controls="multi-collapse">¿Cómo pago?</button>
+        </div>
+        <div class="card col-sm-3">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#donde" aria-expanded="false" aria-controls="multi-collapse">¿Dónde pago?</button>
+        </div>
+      </div>
+              <div class="row ">
+                <div class=" card col-sm-3 collapse multi-collapse" id="funciona" >
                   <p>
                     <h3>¿Cómo funciona?</h3>
                     <p>Busca hoteles de acuerdo a tu preferencia.</p>  
                   </p>
                 </div>
-                <div class="col-sm-4">
+                <div class="card col-sm-3 collapse multi-collapse" id="reserva">
                   <p>
                     <h3>¿Dónde puedo reservar?</h3>
                     <p>Elija la ciudad que le interese y luego haga la reserva con sus datos.</p>  
                   </p>
                 </div>
-                <div class="col-sm-4">
+                <div class="card col-sm-3 collapse multi-collapse" id="pago">
                   <p>
                     <h3>¿Cómo pago?</h3>
                     <p>Utilizá tu tarjeta favorita.</p>  
                   </p>
                 </div>
+                <div class="card col-sm-3 collapse multi-collapse" id="donde">
+                  <p>
+                    <h3>¿Dónde pago?</h3>
+                    <p>Encuentra nuestros puntos de pago.</p>  
+                  </p>
+                </div>
                 
               </div>
-
-<img src="images/playa1.jpg" class="img-fluid" alt="Responsive image" width="70%" height="300px">
+        
+  <!--Implementando Collapse-->
+<!-- img src="images/playa1.jpg" class="img-fluid" alt="Responsive image" width="70%" height="300px"-->
 
     <div class="d-flex flex-wrap flex-row-reverse ">  
-        <div class=" card-hotel d-flex flex-column justify-content-between ml-2">
+        <div class=" card card-hotel d-flex flex-column justify-content-between ml-2">
 
           <div class="card-body">
             <h5 class="cart-title">Hoteles Colombia</h5>
@@ -83,7 +105,7 @@
             <div> <button class="btn btn-primary btn-reserva">Reservar</button> </div>
         </div>
 
-         <div class=" card-hotel d-flex flex-column justify-content-between ml-2">
+         <div class=" card card-hotel d-flex flex-column justify-content-between ml-2">
           <div class="card-body">
             <h5 class="cart-title">Hoteles Colombia</h5>
             <img class="card-img-top" src="images/hotel.png" alt="hotel img">
@@ -92,7 +114,7 @@
           </div>
             <div> <button class="btn btn-primary btn-reserva">Reservar</button> </div>
         </div>
-         <div class=" card-hotel d-flex flex-column justify-content-between ml-2">
+         <div class=" card card-hotel d-flex flex-column justify-content-between ml-2">
           <div class="card-body">
             <h5 class="cart-title">Hoteles Colombia</h5>
             <img class="card-img-top" src="images/hotel.png" alt="hotel img">
@@ -101,7 +123,7 @@
           </div>
             <div> <button class="btn btn-primary btn-reserva">Reservar</button> </div>
         </div>
-        <div class=" card-hotel d-flex flex-column justify-content-between ml-2">
+        <div class=" card card-hotel d-flex flex-column justify-content-between ml-2">
           <div class="card-body">
             <h5 class="cart-title">Hoteles Colombia</h5>
             <img class="card-img-top" src="images/hotel.png" alt="hotel img">
@@ -110,7 +132,7 @@
           </div>
             <div> <button class="btn btn-primary btn-reserva">Reservar</button> </div>
         </div>
-        <div class=" card-hotel d-flex flex-column justify-content-between ml-2">
+        <div class=" card card-hotel d-flex flex-column justify-content-between ml-2">
           <div class="card-body">
             <h5 class="cart-title">Hoteles Colombia</h5>
             <img class="card-img-top" src="images/hotel.png" alt="hotel img">
