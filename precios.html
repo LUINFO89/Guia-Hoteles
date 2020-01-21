@@ -48,7 +48,25 @@
         <li class="breadcrumb-item active" aria-current="page">Precios</li>
       </ol>     
     </nav>
-<div class="table-responsive">
+
+<!--Manejando Tabs-->
+    <ul class="nav nav-pills" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="comparaTab" data-toggle="pill" href="#compara" role="tab" aria-controls="compara" aria-selected="true">Compara</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " id="tarjetaTab" data-toggle="pill" href="#tarjeta" role="tab" aria-controls="tarjeta" aria-selected="true">Medios de Pagos aceptados</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " id="comentariosTab" data-toggle="pill" href="#comentarios" role="tab" aria-controls="comentarios" aria-selected="true">Otros</a>
+      </li> 
+    </ul>
+    <!--Fin Manejando Tabs-->
+    <hr>
+    <!--Actuadores de los Tabs-->    
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="compara" role="tabPanel" aria-labelledby="compara-tab">
+    <div class="table-responsive">
     <table class="table table-striped">
       <thead class="thead-dark">
         <th>Bogotá</th>
@@ -111,7 +129,68 @@
       </tbody>
     </table>
              
+    </div>
   </div>
+
+        <div class="tab-pane fade show" id="tarjeta" role="tabPanel" aria-labelledby="tarjeta-tab">
+        <div class="accordion" id="accordionTarjetas">
+          <div class="card">
+
+            <div class="card-header" id="headdingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBasica" aria-expanded="true" aria-controls="collapseBasica">
+                  Tarjeta Basica
+                </button>
+              </h5>       
+            </div>
+            <div id="collapseBasica" class="collapse show" aria-llabelledby="headdingOne" data-parent="#accordionTarjetas">
+              <div class="card-body">Puedes reservar en 3 cuotas sin interes. </div>
+
+            </div>
+
+
+            <div class="card-header" id="headdingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseVIP" aria-expanded="true" aria-controls="collapseVIP">
+                  Tarjeta VIP
+                </button>
+              </h5>       
+            </div>
+            <div id="collapseVIP" class="collapse" aria-llabelledby="headdingTwo" data-parent="#accordionTarjetas">
+              <div class="card-body">Puedes reservar en 6 cuotas sin interes. </div>
+
+            </div>
+
+
+            <div class="card-header" id="headdingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBlack" aria-expanded="true" aria-controls="collapseBlack">
+                  Tarjeta Black
+                </button>
+              </h5>       
+            </div>
+            <div id="collapseBlack" class="collapse" aria-llabelledby="headdingThree" data-parent="#accordionTarjetas">
+              <div class="card-body">Puedes reservar en 12 cuotas sin interes. </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade show" id="comentarios" role="tabPanel" aria-labelledby="comentarios-tab">   
+        <div class="d-flex justify-content-center">
+          <div class="container">
+            <p>
+              <strong>What is Lorem Ipsum?</strong>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+            </p>
+          </div>
+        </div>
+      </div>
+</div>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="node_modules/jQuery/dist/jQuery.min.js" ></script>
