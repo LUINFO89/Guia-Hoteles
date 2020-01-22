@@ -35,8 +35,10 @@
 
 <div class="jumbotron ">
   
-    <h1>Guia Hoteles</h1>
-    <!--p class="lead">Aqui encontraras una guia comercial de los mejores hoteles de sudamerica.</p-->
+    <h3>Guia de Hoteles</h3 >
+    <p class="lead">Aqui encontraras una guia comercial de los mejores hoteles de sudamerica.</p>
+    
+    <p>La mejor selección de hoteles, alojamientos únicos y mucho más.</p>
   
 </div>
 
@@ -102,7 +104,9 @@
             <h6 class="cart-subtitle text-muted">Medellin</h6>
             <p class="cart-text">Utilizá tu tarjeta favorita.</p>  
           </div>
-            <div> <button class="btn btn-primary btn-reserva">Reservar</button> </div>
+            <div> 
+      <button class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#reservas">Reservar</button> 
+    </div>
         </div>
 
          <div class=" card card-hotel d-flex flex-column justify-content-between ml-2">
@@ -112,7 +116,9 @@
             <h6 class="cart-subtitle text-muted">Medellin</h6>
             <p class="cart-text">Utilizá tu tarjeta favorita.</p>  
           </div>
-            <div> <button class="btn btn-primary btn-reserva">Reservar</button> </div>
+            <div> 
+      <button class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#reservas">Reservar</button> 
+    </div>
         </div>
          <div class=" card card-hotel d-flex flex-column justify-content-between ml-2">
           <div class="card-body">
@@ -121,7 +127,9 @@
             <h6 class="cart-subtitle text-muted">Bogotá</h6>
             <p class="cart-text">Utilizá tu tarjeta favorita.</p>  
           </div>
-            <div> <button class="btn btn-primary btn-reserva">Reservar</button> </div>
+            <div> 
+      <button class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#reservas">Reservar</button> 
+    </div>
         </div>
         <div class=" card card-hotel d-flex flex-column justify-content-between ml-2">
           <div class="card-body">
@@ -130,7 +138,9 @@
             <h6 class="cart-subtitle text-muted">Cali</h6>
             <p class="cart-text">Utilizá tu tarjeta favorita.</p>  
           </div>
-            <div> <button class="btn btn-primary btn-reserva">Reservar</button> </div>
+            <div> 
+      <button class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#reservas">Reservar</button> 
+    </div>
         </div>
         <div class=" card card-hotel d-flex flex-column justify-content-between ml-2">
           <div class="card-body">
@@ -139,10 +149,81 @@
             <h6 class="cart-subtitle text-muted">Monteria</h6>
             <p class="cart-text">Utilizá tu tarjeta favorita.</p>  
           </div>
-            <div> <button class="btn btn-primary btn-reserva">Reservar</button> </div>
+            <!--div> <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button> </div-->
+    <div> 
+      <button class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#reservas">Reservar</button> 
+    </div>
+
         </div>
-    
-    
+    <!-- Modal -->
+      <div class="modal fade" id="contacto" tabindex="-1" role="dialog" arialabelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-tittle" id="exampleModalLabel">Escríbenos</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Tu email:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>  
+                      <div class="form-group">
+                        <label for="message-text" class="col-form-label">Mensaje:</label>
+                        <textarea class="form-control" id="message-text"> </textarea> 
+                      </div>                
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success">Enviar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+           <!-- Modal  reservas-->
+      <div class="modal fade" id="reservas" tabindex="-1" role="dialog" arialabelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-tittle" id="exampleModalLabel">Registra tus datos para la Reserva.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">LLegada:</label>
+                        <input type="date" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Salida:</label>
+                        <input type="date" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Número de Adultos:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Número de Niños:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Tu email:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>  
+                                  
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success">Enviar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
     
 
     
