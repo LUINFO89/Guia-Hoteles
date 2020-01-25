@@ -1,14 +1,15 @@
 .jumbotron{
-    background-color:yellow;
-    color: black;
+    background-color:#0877AF;
+    color: white;
     margin-top: 30px;
-
+    align-content: center;
 }
 footer{
     padding: 15px 15px 0 15px;
-    background-color: yellow;
+    background-color: black;
     margin-bottom: 0px;
     margin-top: 10px;
+    color: white;
 }
 .card-hotel{
     flex: 1 200px;
@@ -26,6 +27,10 @@ footer{
 {
     padding-right: 50px; 
 
+}
+.tab-content{
+    
+    padding-top: 10px;
 }
 
 
