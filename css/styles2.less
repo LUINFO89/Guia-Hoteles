@@ -1,12 +1,21 @@
+@yellow: #fffa19;
+
+.mixin margenes(@top,@bottom){
+
+    margin-top: @top;
+    margin-bottom: @bottom;
+}
+
+
 .jumbotron {
-  background-color: #fffa19;
+  background-color: @yellow;
   color: black;
   margin-top: 50px;
   margin-bottom: 0px; }
 
 footer {
   padding: 15px 15px 0 15px;
-  background-color: #fffa19;
+  background-color: @yellow;
   margin-top: 10px;
   margin-bottom: 0px; }
 
@@ -21,6 +30,3 @@ footer {
 
 .footer-addres-icon {
   padding-right: 50px; }
-
-.tab-content {
-  padding-top: 10px; }
